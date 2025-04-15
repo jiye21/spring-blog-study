@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.estsoft.demo.service.HelloService;
+import com.example.demo.service.HelloService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
