@@ -1,0 +1,19 @@
+### GET request to example server
+GET http://localhost:8080/members
+
+###
+POST localhost:8080/members
+Content-Type: application/json
+
+{
+  "name": "이름"
+}
+
+### 회원 단건 조회
+GET http://localhost:8080/members/10
+
+### 회원 단건 삭제
+DELETE localhost:8080/members/11
+
+### 회원 이름으로 조회
+GET localhost:8080/search/members?name=동
